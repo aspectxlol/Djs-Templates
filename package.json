@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "yarn nodemon ./src/index.ts"
+  }
+}
